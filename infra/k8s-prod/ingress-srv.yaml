@@ -14,7 +14,7 @@ spec:
             pathType: ImplementationSpecific
             backend:
               service:
-                name: payments-srv
+                name: www.ticketing-services.space
                 port:
                   number: 3000
           - path: /api/users/?(.*)
